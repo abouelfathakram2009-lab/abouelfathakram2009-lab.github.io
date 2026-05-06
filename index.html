@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+  <title>Message</title>
 
   <style>
     body {
@@ -28,28 +28,6 @@
       animation: fadeIn 1.5s ease;
     }
 
-    h1 {
-      font-size: 26px;
-      margin-bottom: 20px;
-    }
-
-    button {
-      margin-top: 20px;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 25px;
-      background: #ff4b5c;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    button:hover {
-      background: #ff1e3c;
-      transform: scale(1.05);
-    }
-
     @keyframes fadeIn {
       from {opacity: 0; transform: translateY(20px);}
       to {opacity: 1; transform: translateY(0);}
@@ -60,19 +38,16 @@
 <body>
 
   <div class="card">
-
-    
     <p style="font-size:18px;">
       shabi zwnin knbghikom kamlin wljalia layn3ltbonmo
     </p>
-
-    <button onclick="showMessage()"a7 elk a sara " </button>
   </div>
 
   <script>
-    function showMessage() {
-    
-    }
+    // shows message automatically after 2 seconds
+    setTimeout(function() {
+      alert("a7 elk a sara");
+    }, 2000);
   </script>
 
 </body>
